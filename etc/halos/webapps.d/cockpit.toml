@@ -1,0 +1,22 @@
+# Cockpit - System Management Console
+# Registry entry for HaLOS dashboard
+
+name = "Cockpit"
+url = "https://halos.local:9090"
+description = "System management console"
+icon_url = "https://cockpit-project.org/images/site/cockpit-logo.svg"
+category = "System"
+
+# Core system app - placed first on dashboard
+priority = 10
+
+# Native service (not a Docker container)
+[type]
+# No container_name - this is a native systemd service
+
+# Explicit layout: top-left corner, 2x2 size
+[layout]
+width = 2
+height = 2
+x_offset = 0
+y_offset = 0
