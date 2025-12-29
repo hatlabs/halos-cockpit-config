@@ -5,7 +5,7 @@ halos-cockpit-config (0.4.0-1) unstable; urgency=medium
   * Update cockpit.toml to use subdomain URL via {{domain}} templating.
   * Package now provides full Cockpit integration for HaLOS.
 
- -- Matti Airas <matti.airas@hatlabs.fi>  Sun, 29 Dec 2025 22:00:00 +0200
+ -- Matti Airas <matti.airas@hatlabs.fi>  Mon, 29 Dec 2025 22:00:00 +0200
 
 halos-cockpit-branding (0.3.1-1) unstable; urgency=medium
 
