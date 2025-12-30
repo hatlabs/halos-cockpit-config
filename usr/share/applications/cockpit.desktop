@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Cockpit
+Comment=HaLOS System Management
+Icon=/usr/share/pixmaps/cockpit.svg
+Exec=xdg-open http://cockpit.localhost/
+Terminal=false
+Categories=System;Settings;
+Keywords=server;admin;network;services;containers;
